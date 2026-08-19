@@ -4,7 +4,9 @@ package PRELIM;
 
 public class Demo1 {
     public static void main (String[] args){
-        System.out.print("Hello world!");
+        int a = 10;
+        int b = 5;
+        System.out.println("SUM: " + (a + b));
     }
     
 }
