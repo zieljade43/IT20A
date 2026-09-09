@@ -12,7 +12,7 @@ package PRELIM;
          };
      for (int i = 0;1<marks.length;i++) {
          for (int j = 0; j<marks[j].length; j++) {
-         System.out.print(marks[i][j]+" ");
+         System.out.print(marks[i][j] + "  ");
          
 }
          
