@@ -1,69 +1,13 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package midterm;
 
-
+/**
+ *
+ * @author admin
+ */
 public class StackArray {
-    private int [] stack;
-    private int top;
-    private int capacity;
     
-    public StackArray(int capacity) {
-        this.capacity = capacity;
-        this.stack = new int[capacity];
-        this.top = -1;
-        
-    }
-    
-    public static void main (String[] args){
-        StackArray stack  = new StackArray[5];
-        
-        stack.push(10);
-        stack.push(20);
-        stack.push(30);
-        stack.push(40);
-        stack.push(50);
-        
-        System.out.println("Peek: " + stack.peek());
-        System.out.println("Empty?: " + stack.isEmpty());
-        System.out.println("Full?: " + stack.isFull());
-        /*stack.push(10);*/
-    }
-    public void push(int value){
-        if(isFull()){
-            System.out.println("Stack id full");
-        }
-        
-        top++;
-        stack[top] = value;
-        System.out.println("Push at " + top + ":" + value);
-    }
-    public int peek(){
-        if(isEmpty()){
-            System.out.println("Stack is Empty");
-            return -1;
-        }
-   sspublic int pop() {
-        if(isEmpty()) {
-            System.out.println("Stack is Empty");
-
-        }
-        int value = stack[top];
-        top--;
-        return -1;
-               
-
-        }
-        public boolean isEmpty(){
-            return top == -1;
-            
-        }
-        public boolean isFull(){
-            return top == capacity -1;
-        }
-    }
-
-  //  private void push(int i) {
-    //    throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    
-   
-
+}
