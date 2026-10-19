@@ -22,11 +22,11 @@ public class StackArray {
      public static void main(String[] args){
         StackArray stack = new StackArray(5);
 
-       stack.push(1);
-       stack.push(2);
-       stack.push(3);
-       stack.push(4);
-       stack.push(5);
+       stack.push(10);
+       stack.push(20);
+       stack.push(30);
+       stack.push(40);
+       stack.push(50);
        
          System.out.println("\nStack element: ");
          stack.display();
