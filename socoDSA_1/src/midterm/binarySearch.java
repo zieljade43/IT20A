@@ -26,13 +26,11 @@ public class binarySearch {
         int arr[] = {1,2,3,4,5};
         int result = search(arr, 4);
         
-        if (result >= 0){
-            System.out.print("Found at index:" + result + "  = " + arr[result]);
-        } else {
-            System.out.print("Element not Found");
+       
+            System.out.print(result);
         }
         
         
     }
     
-}
+
